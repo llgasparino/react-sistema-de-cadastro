@@ -1,22 +1,18 @@
-// Importe as funções necessárias dos SDKs que você precisa
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// TODO: Adicione aqui a configuração do seu projeto Firebase
-// Cole o objeto firebaseConfig que você copiou do console do Firebase
+// As chaves agora são lidas das variáveis de ambiente
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID,
 };
 
-// Inicialize o Firebase
 const app = initializeApp(firebaseConfig);
 
-// Exporte os serviços que vamos utilizar na aplicação
 export const auth = getAuth(app);
 export const db = getFirestore(app);
