@@ -66,3 +66,4 @@ describe("Principal component", () => {
     expect(screen.getByText(/user@teste.com/i)).toBeInTheDocument();
   });
 });
+z;
