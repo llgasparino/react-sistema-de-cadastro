@@ -1,3 +1,36 @@
+<div align="center">
+
+# Sistema de Cadastro
+
+[![Status](https://img.shields.io/badge/status-active-success?style=flat-square)](#)
+[![React](https://img.shields.io/badge/React-19-blue?logo=react&style=flat-square)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Auth%20%26%20DB-FFCA28?logo=firebase&logoColor=black&style=flat-square)](https://firebase.google.com/)
+[![Tests](https://img.shields.io/badge/tests-react--scripts%20test-informational?style=flat-square)](#)
+[![Build](https://img.shields.io/badge/build-react--scripts-green?style=flat-square)](#)
+[![Issues](https://img.shields.io/github/issues/llgasparino/react-sistema-de-cadastro?style=flat-square)](https://github.com/llgasparino/react-sistema-de-cadastro/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/llgasparino/react-sistema-de-cadastro?style=flat-square)](https://github.com/llgasparino/react-sistema-de-cadastro/commits/main)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](#licenca)
+[![Deploy](https://img.shields.io/badge/deploy-Vercel-black?logo=vercel&style=flat-square)](https://vercel.com/)
+
+</div>
+
+Aplicação React para cadastro e autenticação de usuários utilizando Firebase (Auth / Firestore). Estruturada com Create React App e preparada para implantação na Vercel.
+
+---
+
+## 📌 Visão Geral
+
+Funcionalidades principais (planejadas ou existentes):
+
+- Cadastro de usuários
+- Login/autenticação com Firebase
+- Página principal protegida
+- Organização de rotas via React Router
+
+> Sinta-se à vontade para abrir issues ou sugestões.
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
